@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+ 
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-dark .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 1.1em;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  max-height: 500px;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header, .modal-footer {
+  border: none;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.table thead th {
+  background-color: #007bff;
+  color: white;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.btn-primary, .btn-success {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary:hover, .btn-success:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1.5em;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #007bff;
+}
+
+.alert {
+  border-radius: 5px;
+}
+
+h2, h3 {
+  font-weight: bold;
+}
+
+section {
+  background-color: #f1f1f1;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 2em;
+}
